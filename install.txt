@@ -1,0 +1,17 @@
+To install and use this package follow:
+1. Upload your spreadsheet file on Google sheets.
+2. Get signed credentials, follow this http://gspread.readthedocs.io/en/latest/oauth2.html
+3. Place JSON file of Service account key in base directory
+4. Don't forget to share the client_email with your Google sheets file with edit access.
+
+Required packages:
+Python 3.6
+gspread
+inflection
+oauth2client
+
+
+
+
+Usage Limits
+Google Sheets API has a limit of 500 requests per 100 seconds per project, and 100 requests per 100 seconds per user.
